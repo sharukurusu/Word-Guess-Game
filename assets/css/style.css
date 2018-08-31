@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Jim Nightshade', cursive;
+    font-size: 1.5em;
+    text-align: center;
+    background: black;
+}
+#gameSpace {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 1024px;
+    height: 787px;
+    background: url(../images/piratemap.jpg);
+}
+#gameText {
+    top: 4em;
+    margin: auto;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+#bigX {
+    font-size: 8em;
+    color: crimson;
+    font-weight: bolder;
+    text-align: right;
+}

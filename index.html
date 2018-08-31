@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        
+        <title>Pirate's Hangman!</title>
+        
+        <link href="https://fonts.googleapis.com/css?family=Jim+Nightshade" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/reset.css" type="text/css">
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+        
+
+    </head>
+    <body>
+        
+        <div id="gameSpace">
+            <div id="gameText">
+                <h1>Pirate's Hangman!</h1>
+                <h2>Score</h2>
+                <div id="score">0</div>
+                <h2>Current Word</h2>
+                <div id="playArea"></div>
+                <h2>Chances Remaining</h2>
+                <div id="chances"></div>
+                <h2>Wrong Guesses</h2>
+                <div id="wrongGuesses"></div>
+                <p id="bigX">X</p>
+                <p>V Thar be music below deck! V</p>
+            </div>
+            
+        </div>
+
+        
+        <audio controls autoplay loop>
+            <source src="assets/sounds/buccaneerIsland.mp3" type="audio/mpeg">
+        </audio>
+
+
+
+
+        <script src="assets/javascript/game.js"></script>
+    </body>
+</html>
